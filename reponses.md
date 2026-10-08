@@ -15,3 +15,11 @@ Commande utilisée pour examiner un commit Contact : git show c9eb5c2
 1. commande utilisée : git reset --mixed HEAD~1
 2. reset fait reculer la branche d'un commit, et le mode mixed annule le commit et vide le staging sans toucher au contenu des fichiers
 3. méthode qui aurait tout supprimé : git reset --hard HEAD~1
+
+
+## Mission 9 – Commit partagé à annuler
+
+1. commande : git revert <id>
+2. revert crée un nouveau commit qui annule, et le commit d'origine reste dans l'historique
+3. pourquoi c'est différent de la mission 8 : le commit était partagé, et un reset aurait réécrit un historique que les autres possèdent déjà
+4. reset sert pour un historique local, revert pour un commit partagé
