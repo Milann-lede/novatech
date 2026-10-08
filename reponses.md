@@ -31,3 +31,11 @@ Commande utilisée pour examiner un commit Contact : git show c9eb5c2
 2. l'id d'origine (sur test/experimentations) et le nouvel id (sur main)
 3. pourquoi pas un merge : il aurait aussi intégré les couleurs expérimentales et le texte de test 
 4. pourquoi l'id change : c'est un nouveau commit, posé sur un autre parent
+
+## Mission 12 – Version stable
+
+1. 1.0.0 = MAJEURE.MINEURE.CORRECTIF
+2. majeure : changements importants ou incompatibles ; mineure : nouvelles fonctionnalités compatibles ; correctif : corrections de bugs
+3. correction de bug mineur : v1.0.1
+4. nouvelle fonctionnalité compatible : v1.1.0
+5. refonte majeure incompatible : v2.0.0
