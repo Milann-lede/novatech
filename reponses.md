@@ -7,3 +7,11 @@
 4. Commande pour afficher l'historique graphique : git log --oneline --graph --all
 
 Commande utilisée pour examiner un commit Contact : git show XXXXXXX
+
+
+## Mission 8 – Commit local incorrect
+
+
+1. commande utilisée : git reset --mixed HEAD~1
+2. reset fait reculer la branche d'un commit, et le mode mixed annule le commit et vide le staging sans toucher au contenu des fichiers
+3. méthode qui aurait tout supprimé : git reset --hard HEAD~1
