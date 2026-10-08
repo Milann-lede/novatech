@@ -6,7 +6,7 @@
 3. Nombre de commits à ce stade : 6
 4. Commande pour afficher l'historique graphique : git log --oneline --graph --all
 
-Commande utilisée pour examiner un commit Contact : git show XXXXXXX
+Commande utilisée pour examiner un commit Contact : git show c9eb5c2
 
 
 ## Mission 8 – Commit local incorrect
