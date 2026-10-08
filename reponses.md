@@ -23,3 +23,11 @@ Commande utilisée pour examiner un commit Contact : git show c9eb5c2
 2. revert crée un nouveau commit qui annule, et le commit d'origine reste dans l'historique
 3. pourquoi c'est différent de la mission 8 : le commit était partagé, et un reset aurait réécrit un historique que les autres possèdent déjà
 4. reset sert pour un historique local, revert pour un commit partagé
+
+
+## Mission 11 – Correction isolée
+
+1. commande : git cherry-pick <id>
+2. l'id d'origine (sur test/experimentations) et le nouvel id (sur main)
+3. pourquoi pas un merge : il aurait aussi intégré les couleurs expérimentales et le texte de test 
+4. pourquoi l'id change : c'est un nouveau commit, posé sur un autre parent
